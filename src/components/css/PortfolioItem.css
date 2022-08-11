@@ -1,0 +1,25 @@
+.port_image:hover{
+    outline: 1px solid rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+.port_image{
+    outline: 1px solid white;
+    outline-offset: -1px;
+    border-radius: 2%;
+
+}
+
+.description{
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 15px;
+}
+
+.description:hover{
+    background-color: rgb(247, 247, 247);
+}
+
+.item-spacing{
+    padding-top: 2rem;
+}

@@ -1,0 +1,74 @@
+nav{
+    font-size: 10px;
+    position:fixed;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: table;
+}
+
+#hamburger{ 
+    align-self: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    user-select: none;
+    width: 2.5rem;
+    vertical-align: middle;
+    color: rgb(180, 180, 180);
+}
+
+#hamburger:hover{
+    color: black;
+}
+
+#hamburger p {
+    margin: 0;
+}
+
+#close{
+    align-self: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    user-select: none;
+    width: 2.5rem;
+    vertical-align: middle;
+    color: rgb(180, 180, 180);
+}
+
+#close:hover{
+    color: black;
+}
+
+#close p{
+    margin: 0;
+}
+
+#name{
+    position: absolute;
+}
+
+ul{
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+    margin-left: 2rem;
+    margin-bottom: 0;
+    user-select: none;
+}
+
+li{
+    display: inline-block;
+    padding-top: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: Replica,"Helvetica Neue",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(150, 150, 150);
+    opacity: 1;
+    visibility: visible;
+}
+
+li:hover{
+    transition: color 300ms;
+    color: black;
+}
